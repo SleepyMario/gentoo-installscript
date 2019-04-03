@@ -127,7 +127,7 @@ rm /stage3-amd64-20190331T214502Z.tar.xz
 
 ### 22) Useraccounts and passwords
 echo -e "difficultpassword\ndifficultpassword" | passwd root
-useradd -m -G users,wheel,audio,portage,usb,video,input,plugdev -s /bin/bash ashwin
+useradd -m -G users,wheel,audio,portage,usb,video,input,plugdev -s /bin/bash user 
 echo -e "12345\n12345" | passwd user
 
 echo "!!!!!!!!!!!!IMPORTANT: YOUR PASSWORDS! TAKE NOTICE!!!!!!!!!!!!!!!"
